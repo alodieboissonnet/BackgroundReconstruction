@@ -21,7 +21,7 @@ All the settings that you should change to test our code with different paramete
 - Type "./main" to launch the program
 
 
-# GENERAL SETTINGS:
+## GENERAL SETTINGS:
 
 - rootdir: The folder path to images. They should be stored in .JPG format, and called "img0.jpg", "img1.jpg"...
 
@@ -30,11 +30,11 @@ All the settings that you should change to test our code with different paramete
 - height: The resolution of the images for the algorithms. A higher resolution means more time for the methods to compute (especially the graph-cut one, which is time-consuming).
 
 
-# METHODS TO TRY:
+## METHODS TO TRY:
 
 Change to "true" or "false" those booleans to try only the methods that you want to for your dataset.
 
 
-# GRAPH CUT SETTINGS:
+## GRAPH CUT SETTINGS:
 
 The best parameters depend a lot on the dataset that you are using, especially because of the relative size of the obstacles in the images, and their frequency. Feel free to change them.
